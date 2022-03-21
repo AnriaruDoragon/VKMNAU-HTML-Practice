@@ -1,0 +1,57 @@
+header {
+    padding: 1rem;
+    background-color: var(--accent-2);
+}
+
+header div {
+    align-items: center;
+    display: flex;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    margin-right: auto;
+    margin-left: .5rem;
+    display: flex;
+    list-style: none;
+}
+
+.header-nav li a {
+    margin-right: 1.25rem;
+    font-size: 1.5em;
+    transition: .15s ease-in-out;
+}
+
+.header-nav li a:hover {
+    filter: invert(50%);
+}
+
+.selected-nav {
+    text-shadow: 0 0 15px var(--accent-1);
+}
+
+.header-phones {
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    list-style: none;
+}
+
+.header-phones li {
+    display: flex;
+    align-items: center;
+}
+
+.header-phones li img {
+    margin-right: .25rem;
+    width: 24px;
+    height: 24px;
+}
+
+.header-phones li p {
+    margin-right: 1.25rem;
+}

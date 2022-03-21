@@ -1,0 +1,22 @@
+:root {
+    --main-color: #013328;
+    --text-color: #E3DCD2;
+    --accent-1: #CC8B65;
+    --accent-2: #100C0D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color) !important;
+}
