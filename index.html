@@ -8,13 +8,20 @@
   <title>Document</title>
 </head>
 <body>
-  <script src="scripts/jquery-3.6.0.min.js"></script>
-  <div id="header">
-    <script>
-      $(function(){
-        $("#header").load("http://vkmnau.doragon.me/templates/header.html");
+  <script src="scripts/jquery-3.6.0.min.js">
+    $(function(){
+        $("header").load("http://vkmnau.doragon.me/templates/header.html");
+        $("footer").load("http://vkmnau.doragon.me/templates/footer.htnl");
       });
-    </script>
+  </script>
+
+  <header></header>
+
+  <div class="content">
+    <h1>Content</h1>
   </div>
+
+  <footer></footer>
+
 </body>
 </html>
