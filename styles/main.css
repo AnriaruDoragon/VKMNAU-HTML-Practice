@@ -20,3 +20,7 @@ a {
     text-decoration: none;
     color: var(--text-color) !important;
 }
+
+.content {
+    min-height: calc(100vh - 74px);
+}

@@ -1,0 +1,43 @@
+footer {
+    padding: 1rem;
+    background-color: var(--accent-2);
+    color: var(--text-color);
+}
+
+footer div {
+    max-width: 1300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+}
+
+.copyright {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.footer-logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foooter-links {
+    margin-left: auto;
+    margin-right: 0;
+    display:  flex;
+    list-style: none;
+}
+
+.foooter-links  li {
+    margin-left: 1rem;
+}
+
+.dark-on-hover {
+    transition: .15s ease;
+}
+
+.dark-on-hover:hover {
+    filter: invert(50%);
+}
