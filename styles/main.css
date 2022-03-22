@@ -14,7 +14,13 @@ html {
     background-color: var(--main-color);
     color: var(--text-color);
     font-family: 'Noto Sans', sans-serif;
+    scroll-behavior: smooth;
 }
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
 
 a {
     text-decoration: none;
