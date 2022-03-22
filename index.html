@@ -9,12 +9,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/index.css">
   <link rel="stylesheet" href="styles/footer.css">
   <link rel="icon" type="image/x-icon" href="assets/PageIcon.png">
   <title>Турагенство «Путівочка» | Головна</title>
 </head>
 <body>
-  
+
   <header>
     <div>
       <a class="header-logo" href="http://vkmnau.doragon.me/">
@@ -51,7 +52,54 @@
   </header>
 
   <div class="content">
+    <div class="container">
 
+      <div class="why-us">
+        <h1>Чому саме ми?</h1>
+        <div class="banners">
+          <div class="banner branches">
+            <img src="assets/Globe.png" alt="Globe" width="48" height="48">
+            <div class="banners-content">
+              <div class="banner-title">
+                Наші
+                <br>
+                філії
+              </div>
+              <div class="banner-text">
+                <strong id="branches-number">0</strong> офісів, <strong id="branches-cities-number">0</strong> міст
+              </div>
+            </div>
+          </div>
+          <div class="banner flights-today">
+            <img src="assets/Luggage.png" alt="Luggage" width="48" height="48">
+            <div class="banners-content">
+              <div class="banner-title">
+                Сьогодні
+                <br>
+                поїхали відпочивати
+              </div>
+              <div class="banner-text">
+                <strong id="flights-today-number">0</strong> туристів
+              </div>
+            </div>
+          </div>
+          <div class="banner tours-today">
+            <img src="assets/Tickets.png" alt="Ticket" width="48" height="48">
+            <div class="banners-content">
+              <div class="banner-title">
+                Сьогодні
+                <br>
+                заброньовано
+              </div>
+              <div class="banner-text">
+                <span id="todays-country"></span> <strong id="todays-price">0</strong> грн
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </div>
 
   <footer>
@@ -79,6 +127,8 @@
       </ul>
     </div>
   </footer>
+
+  <script src="scripts/index.js"></script>
   
 </body>
 </html>

@@ -30,3 +30,12 @@ a {
 .content {
     min-height: calc(100vh - 74px);
 }
+
+.content .container {
+    max-width: 1300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+}
