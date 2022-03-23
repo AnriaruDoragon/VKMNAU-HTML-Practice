@@ -74,10 +74,10 @@ h1, h2, h3 {
     margin-right: -20px;
 }
 
-.steps-to-order:first-child {
+.steps-to-order .section:first-child {
     margin-left: auto;
 }
-.steps-to-order:last-child {
+.steps-to-order .section:last-child {
     margin-right: auto;
 }
 
