@@ -37,3 +37,16 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
+
+.divider {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.c-accent {
+    padding-top: 1.5rem;
+    padding-bottom: 1.25rem;
+    color: white !important;
+    background-color: var(--accent-1);
+    box-shadow: 0 0 10px black;
+}
