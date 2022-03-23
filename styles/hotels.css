@@ -22,19 +22,18 @@
 .card-details {
     display: flex;
     color:white;
+    font-size: 24pt;
     margin-top: 8rem;
     margin-bottom: 1rem;
 }
 
 .card-details_country {
-    font-size: 20pt;
     margin-left: 0;
     margin-right: auto;
 }
 
 .card-details_price {
     font-weight: bold;
-    font-size: 24pt;
     margin-left: auto;
     margin-right: 0;
 }
