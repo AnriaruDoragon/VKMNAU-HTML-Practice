@@ -1,0 +1,40 @@
+.hotels {
+    padding-top: .25rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hotel-card {
+    width: 100%;
+    max-width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-details {
+    display: flex;
+    color:white;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+}
+
+.card-details_country {
+    font-size: 20pt;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.card-details_price {
+    font-weight: bold;
+    font-size: 24pt;
+    margin-left: auto;
+    margin-right: 0;
+}
